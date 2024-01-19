@@ -1,0 +1,71 @@
+/* Arquivo: App.css */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: radial-gradient(circle, #55d37f, #197e4a);
+}
+
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  width: 220px;
+  margin: 20px 30px 20px 160px; /* Ajuste para centralizar verticalmente */
+}
+
+h1 {
+  margin-top: 20px;
+  color: white;
+  font-style: italic;
+  text-align: center;
+  font-size: 80px;
+}
+
+p {
+  margin-top: 0;
+  color: rgb(24, 23, 23);
+  font-style: italic;
+  text-align: center;
+  font-size: 18px;
+}
+
+#textInput {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.card {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  font-style: italic;
+  font-size: 18px;
+}
+
+/* Estilo específico para o parágrafo dentro do .card */
+.card p {
+  text-align: left;
+  margin-top: 0;
+  color: rgb(24, 23, 23);
+  font-style: italic;
+  font-size: 18px;
+}
